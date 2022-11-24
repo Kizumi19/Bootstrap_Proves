@@ -1,6 +1,14 @@
 <!--Què és Bootstrap-->
-<!--És una llibreria d'estils CSS creada per Twitter, la caractarística principal és el de poder
-fer responsive les pàgines web. Tracta d'aprofitar l'espai per ubicar els elements-->
+    <!--És una llibreria d'estils CSS creada per Twitter, la caractarística principal és el de poder
+    fer responsive les pàgines web. Tracta d'aprofitar l'espai per ubicar els elements-->
+
+        <!--Què és una row-->
+        <!--és una fila i sol estar dins del div (un contenedor intern). Es pot cridar posant ".row" i tabulant-->
+
+        <!--Què és una col-->
+            <!--El que farà és dir-li que per la pantlla medium, hi hagin 4. Tendria l'espai horitzontal abarcat-->
+
+
 
 <!--CSS: controla classes i aquestes ens permetràn donar estil als elements-->
 
@@ -21,11 +29,20 @@ Requereix d'internet perquè funcioni, ja que això fa que no el necessitem tind
 </head>
 <body>
     <!--Títol-->
-
     <!--Començament de les etiquetes de caapadiv, que son contenedors d'elements
     per tenir-los i agrupar-los-->
-    <div class = "container" style="background-color: red">
-        <h1>   Prova  </h1>
+    <div class = "container">
+        <div class="row">
+            <div class="col-md-4" style="background-color: blue;">
+                <h1>   Prova  </h1>
+            </div>
+            <div class="col-md-4"style="background-color: red;">
+                <h1>   Prova  </h1>
+            </div>
+            <div class="col-md-4" style="background-color: green;">
+                <h1>   Prova  </h1>
+            </div>
+        </div>
 
     </div> 
     </div>
